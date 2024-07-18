@@ -234,12 +234,14 @@ svg {
     right: 40%;
     top: 100%;
     z-index: 1;
+    color: #ef0909;
   }
   .slick-prev {
     position: absolute;
     left: 40%;
     top: 100%;
     z-index: 1;
+    color: #ef0909;
   }
 }
 
@@ -255,7 +257,7 @@ svg {
 }
 
 #testimonial .content {
-  height: 10rem;
+  height: 13rem;
 }
 
 @media (max-width: 1000px) {
@@ -278,4 +280,180 @@ svg {
 /* Add this to your CSS file */
 .active-link {
   color: #ef0909;
+}
+
+/* MY Testimonial no slides */
+
+#slider-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-gap: 1.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding: 1rem 0;
+}
+
+#slider-container .slide {
+  position: relative;
+  grid-column: span 1;
+  aspect-ratio: auto;
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  scroll-snap-align: start;
+  padding: 1.5rem;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+#slider-container .slide.active {
+  opacity: 1;
+}
+
+#slider-container .slide .avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+#slider-container .slide .info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-left: 1rem;
+}
+
+#slider-container .slide .info h6 {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+#slider-container .slide .info p {
+  font-size: 0.875rem;
+}
+
+#slider-container .slide .content {
+  margin-top: 1.5rem;
+
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+#slider-container .slider-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+#slider-container .slider-controls button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (max-width: 1400px) {
+  #slider-container {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+}
+@media (max-width: 1100px) {
+  #slider-container {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+}
+@media (max-width: 900px) {
+  #slider-container {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  #slider-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Books */
+
+#book-body .bg .img1 {
+  background: url("https://i.postimg.cc/HxnPkZyj/20240207-064011.jpg") no-repeat
+    center center/cover;
+}
+
+#book-body .bg .img2 {
+  background: url("https://i.postimg.cc/hGS5HP4L/20240207-064730.jpg") no-repeat
+    center center/cover;
+}
+
+#book-body .bg .img3 {
+  background: url("https://i.postimg.cc/dQByTBQ2/20240507-073747.jpg") no-repeat
+    center center/cover;
+}
+
+#book-body .bg .img4 {
+  background: url("https://i.postimg.cc/X7HmPYNM/IMG-20220917-WA0018.webp")
+    no-repeat center center/cover;
+}
+
+#book-body .bg .img5 {
+  background: url("https://i.postimg.cc/x8tND0px/20240507-073705.jpg") no-repeat
+    center center/cover;
+}
+
+#book .hero .img {
+  background: url("https://i.postimg.cc/K8XNPK0r/Untitled-design-21.jpg")
+    no-repeat center center/cover;
+}
+
+/* ABOUT */
+
+#about .img {
+  background: url("https://i.postimg.cc/XqF4Bn6Q/Untitled-design-20.jpg")
+    no-repeat center center/cover;
+}
+
+/* SERVICE */
+
+#service .hero .img {
+  background: url("https://i.postimg.cc/K8XNPK0r/Untitled-design-21.jpg")
+    no-repeat center center/cover;
+}
+
+#service .content-writing .img {
+  background: url("https://i.postimg.cc/Kzk9W6Vh/20240511-232156.jpg") no-repeat
+    center center/cover;
+}
+
+#service .story-writing-coaching .img {
+  background: url("https://i.postimg.cc/vmW76GpB/20231213-074326.jpg") no-repeat
+    center center/cover;
+}
+
+/* COMMUNITY */
+
+#community .hero.img {
+  background: url("  https://i.postimg.cc/KYztsxg0/IMG-20220621-WA0003.jpg")
+    no-repeat center center/cover;
+}
+
+#community .hero .img2 {
+  background: url("https://i.postimg.cc/Vks6Pg5t/Untitled-design.png") no-repeat
+    center center/cover;
+}
+
+/* SUBCRIPTION */
+
+#subs .solopreneur .bg .img {
+  background: url("https://i.postimg.cc/5ym0JHbQ/BROWN_PATIENCE2-1_1.jpg")
+    no-repeat center center/cover;
+}
+
+#subs .authors .bg .img {
+  background: url("https://i.postimg.cc/4NhcQSxY/C4A-5.png") no-repeat center
+    center/cover;
 }
