@@ -11,7 +11,6 @@ import Testimonial from "@/components/Testimonial";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <ServiceSect />
       <MyStory />
@@ -19,7 +18,6 @@ export default function Home() {
       <MyBook />
       <Testimonial />
       <Faq />
-      <Footer />
     </>
   );
 }

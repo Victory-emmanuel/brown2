@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,19 +9,17 @@
 }
 
 body {
-  font-family: "Urbanist", sans-serif;
   color: #3a3a3a;
   background-color: #fff;
   color-scheme: light dark;
 }
 
 h1 {
-  font-family: "Merriweather", serif;
 }
 
 h2 {
   font-weight: 700;
-  font-family: "Merriweather", serif;
+
   font-size: 2.25rem;
   /* 36px */
   line-height: 2.5rem;
@@ -30,7 +28,7 @@ h2 {
 
 h3 {
   font-weight: 600;
-  font-family: "Merriweather", serif;
+
   font-size: 1.875rem;
   /* 30px */
   line-height: 2.25rem;
@@ -39,7 +37,7 @@ h3 {
 
 h4 {
   font-weight: 500;
-  font-family: "Merriweather", serif;
+
   font-size: 1.5rem;
   /* 24px */
   line-height: 2rem;
@@ -379,7 +377,7 @@ svg {
 }
 
 /* Books */
-
+/* 
 #book-body .bg .img1 {
   background: url("https://i.postimg.cc/HxnPkZyj/20240207-064011.jpg") no-repeat
     center center/cover;
@@ -408,18 +406,18 @@ svg {
 #book .hero .img {
   background: url("https://i.postimg.cc/K8XNPK0r/Untitled-design-21.jpg")
     no-repeat center center/cover;
-}
+} */
 
 /* ABOUT */
-
+/* 
 #about .img {
   background: url("https://i.postimg.cc/XqF4Bn6Q/Untitled-design-20.jpg")
     no-repeat center center/cover;
-}
+} */
 
 /* SERVICE */
 
-#service .hero .img {
+/* #service .hero .img {
   background: url("https://i.postimg.cc/K8XNPK0r/Untitled-design-21.jpg")
     no-repeat center center/cover;
 }
@@ -432,10 +430,10 @@ svg {
 #service .story-writing-coaching .img {
   background: url("https://i.postimg.cc/vmW76GpB/20231213-074326.jpg") no-repeat
     center center/cover;
-}
+} */
 
 /* COMMUNITY */
-
+/* 
 #community .hero.img {
   background: url("  https://i.postimg.cc/KYztsxg0/IMG-20220621-WA0003.jpg")
     no-repeat center center/cover;
@@ -444,11 +442,11 @@ svg {
 #community .hero .img2 {
   background: url("https://i.postimg.cc/Vks6Pg5t/Untitled-design.png") no-repeat
     center center/cover;
-}
+} */
 
 /* SUBCRIPTION */
 
-#subs .solopreneur .bg .img {
+/* #subs .solopreneur .bg .img {
   background: url("https://i.postimg.cc/5ym0JHbQ/BROWN_PATIENCE2-1_1.jpg")
     no-repeat center center/cover;
 }
@@ -456,4 +454,4 @@ svg {
 #subs .authors .bg .img {
   background: url("https://i.postimg.cc/4NhcQSxY/C4A-5.png") no-repeat center
     center/cover;
-}
+} */

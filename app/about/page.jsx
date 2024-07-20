@@ -10,7 +10,7 @@ export default function About() {
           <img
             src="https://i.postimg.cc/XqF4Bn6Q/Untitled-design-20.jpg"
             alt="about hero picture"
-            className="w-full "
+            className="w-full  "
           />
           <div className="  ss:px-12 xx:px-6 grid  text-center ">
             <h1 className="sm:text-6xl xs:text-4xl xx:text-2xl font-extrabold text-white  py-6">
